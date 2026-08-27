@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-27T14:17:38+00:00",
+  "strategy": {
+    "id": "ROBUST_SMA165_CRASH23",
+    "name": "ROBUST TQQQ / QLD / QQQ / CASH",
+    "score_map": {
+      "0": "CASH",
+      "1": "QQQ",
+      "2": "QLD",
+      "3": "TQQQ"
+    },
+    "down_confirm_days": 2,
+    "crash_drawdown_threshold": -0.23,
+    "volatility_threshold": 0.25
+  },
+  "today": {
+    "signal_date": "2026-08-26",
+    "next_execution_date": null,
+    "score": 3,
+    "target": "TQQQ",
+    "action": "BUY",
+    "reason": "기본점수 3/3 유지: TQQQ 유지"
+  },
+  "conditions": {
+    "trend": {
+      "ok": true,
+      "qqq_close": 711.37,
+      "sma165": 661.83
+    },
+    "momentum": {
+      "ok": true,
+      "return_120d": 0.171
+    },
+    "volatility": {
+      "ok": true,
+      "annualized_40d": 0.214
+    },
+    "drawdown_252d": -0.046,
+    "crash_override": false,
+    "fast_reentry": false,
+    "fast_momentum_10d": -0.017
+  },
+  "market_prices": {
+    "QQQ": 711.37,
+    "QLD": 142.0,
+    "TQQQ": 70.47
+  },
+  "account": {
+    "portfolio_value": 10000.0,
+    "cash": 10000.0,
+    "positions": {
+      "QQQ": {
+        "shares": 0.0,
+        "avg_price": 0.0,
+        "market_price": 711.37,
+        "market_value": 0.0
+      },
+      "QLD": {
+        "shares": 0.0,
+        "avg_price": 0.0,
+        "market_price": 142.0,
+        "market_value": 0.0
+      },
+      "TQQQ": {
+        "shares": 0.0,
+        "avg_price": 0.0,
+        "market_price": 70.47,
+        "market_value": 0.0
+      }
+    },
+    "current_weights": {
+      "QQQ": 0.0,
+      "QLD": 0.0,
+      "TQQQ": 0.0,
+      "CASH": 1.0
+    }
+  },
+  "target": {
+    "shares": {
+      "QQQ": 0.0,
+      "QLD": 0.0,
+      "TQQQ": 141.0
+    },
+    "weights": {
+      "QQQ": 0.0,
+      "QLD": 0.0,
+      "TQQQ": 0.993627,
+      "CASH": 0.006372999999999956
+    }
+  },
+  "orders": [
+    {
+      "side": "BUY",
+      "ticker": "TQQQ",
+      "shares": 141.0,
+      "estimated_price": 70.47,
+      "estimated_value": 9936.27,
+      "note": "신규 매수"
+    }
+  ]
+}
