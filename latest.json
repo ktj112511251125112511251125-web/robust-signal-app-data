@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:49:15+00:00",
+  "generated_at": "2026-09-06T23:46:27+00:00",
   "strategy": {
     "id": "ROBUST_SMA165_CRASH23",
     "name": "ROBUST TQQQ / QLD / QQQ / CASH",
@@ -19,7 +19,7 @@
     "next_execution_date": "2026-09-08",
     "score": 3,
     "target": "TQQQ",
-    "action": "BUY",
+    "action": "BUY_MORE",
     "reason": "기본점수 3/3 유지: TQQQ 유지"
   },
   "conditions": {
@@ -34,7 +34,7 @@
     },
     "volatility": {
       "ok": true,
-      "annualized_40d": 0.20134639253573827
+      "annualized_40d": 0.20134639253573836
     },
     "drawdown_252d": -0.03539435449629513,
     "crash_override": false,
@@ -47,7 +47,7 @@
     "TQQQ": 72.37000274658203
   },
   "account": {
-    "portfolio_value": 10000.0,
+    "portfolio_value": 13618.500137329102,
     "cash": 10000.0,
     "positions": {
       "QQQ": {
@@ -63,30 +63,30 @@
         "market_value": 0.0
       },
       "TQQQ": {
-        "shares": 0.0,
-        "avg_price": 0.0,
+        "shares": 50.0,
+        "avg_price": 50.0,
         "market_price": 72.37000274658203,
-        "market_value": 0.0
+        "market_value": 3618.5001373291016
       }
     },
     "current_weights": {
       "QQQ": 0.0,
       "QLD": 0.0,
-      "TQQQ": 0.0,
-      "CASH": 1.0
+      "TQQQ": 0.2657047472805454,
+      "CASH": 0.7342952527194546
     }
   },
   "target": {
     "shares": {
       "QQQ": 0.0,
       "QLD": 0.0,
-      "TQQQ": 137.0
+      "TQQQ": 187.0
     },
     "weights": {
       "QQQ": 0.0,
       "QLD": 0.0,
-      "TQQQ": 0.9914690376281738,
-      "CASH": 0.008530962371826172
+      "TQQQ": 0.9937357548292397,
+      "CASH": 0.0062642451707602565
     }
   },
   "orders": [
@@ -96,7 +96,7 @@
       "shares": 137.0,
       "estimated_price": 72.37000274658203,
       "estimated_value": 9914.690376281738,
-      "note": "신규 매수"
+      "note": "목표비중 맞춤 추가매수"
     }
   ]
 }
