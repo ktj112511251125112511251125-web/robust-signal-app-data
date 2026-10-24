@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T19:59:07+00:00",
+  "generated_at": "2026-10-24T01:42:36+00:00",
   "strategy": {
     "id": "ROBUST_SMA165_CRASH23",
     "name": "ROBUST TQQQ / QLD / QQQ / CASH",
@@ -25,55 +25,55 @@
   "conditions": {
     "trend": {
       "ok": true,
-      "qqq_close": 704.6199951171875,
-      "sma165": 689.4697420987216
+      "qqq_close": 704.4000244140625,
+      "sma165": 689.4684089429451
     },
     "momentum": {
       "ok": true,
-      "return_120d": 0.04941349803984241
+      "return_120d": 0.04908588851040463
     },
     "volatility": {
       "ok": true,
-      "annualized_40d": 0.17151521528673727
+      "annualized_40d": 0.17150885685175768
     },
-    "drawdown_252d": -0.07245343966131534,
+    "drawdown_252d": -0.07274300434933556,
     "crash_override": false,
     "fast_reentry": false,
-    "fast_momentum_10d": -0.062094883598801776
+    "fast_momentum_10d": -0.062387682056621596
   },
   "market_prices": {
-    "QQQ": 704.6199951171875,
-    "QLD": 86.2249984741211,
-    "TQQQ": 66.37000274658203
+    "QQQ": 704.4000244140625,
+    "QLD": 86.1500015258789,
+    "TQQQ": 66.29000091552734
   },
   "account": {
-    "portfolio_value": 13318.500137329102,
+    "portfolio_value": 13314.500045776367,
     "cash": 10000.0,
     "positions": {
       "QQQ": {
         "shares": 0.0,
         "avg_price": 0.0,
-        "market_price": 704.6199951171875,
+        "market_price": 704.4000244140625,
         "market_value": 0.0
       },
       "QLD": {
         "shares": 0.0,
         "avg_price": 0.0,
-        "market_price": 86.2249984741211,
+        "market_price": 86.1500015258789,
         "market_value": 0.0
       },
       "TQQQ": {
         "shares": 50.0,
         "avg_price": 50.0,
-        "market_price": 66.37000274658203,
-        "market_value": 3318.5001373291016
+        "market_price": 66.29000091552734,
+        "market_value": 3314.500045776367
       }
     },
     "current_weights": {
       "QQQ": 0.0,
       "QLD": 0.0,
-      "TQQQ": 0.24916470346597114,
-      "CASH": 0.7508352965340288
+      "TQQQ": 0.24893912909841437,
+      "CASH": 0.7510608709015856
     }
   },
   "target": {
@@ -85,8 +85,8 @@
     "weights": {
       "QQQ": 0.0,
       "QLD": 0.0,
-      "TQQQ": 0.9916755197945651,
-      "CASH": 0.008324480205434843
+      "TQQQ": 0.9907777338116892,
+      "CASH": 0.009222266188310785
     }
   },
   "orders": [
@@ -94,8 +94,8 @@
       "side": "BUY",
       "ticker": "TQQQ",
       "shares": 149.0,
-      "estimated_price": 66.37000274658203,
-      "estimated_value": 9889.130409240723,
+      "estimated_price": 66.29000091552734,
+      "estimated_value": 9877.210136413574,
       "note": "목표비중 맞춤 추가매수"
     }
   ]
