@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T22:12:14+00:00",
+  "generated_at": "2026-11-06T03:29:26+00:00",
   "strategy": {
     "id": "ROBUST_SMA165_CRASH23",
     "name": "ROBUST TQQQ / QLD / QQQ / CASH",
@@ -26,15 +26,15 @@
     "trend": {
       "ok": false,
       "qqq_close": 647.0499877929688,
-      "sma165": 694.5544496478457
+      "sma165": 694.5544485381155
     },
     "momentum": {
       "ok": false,
-      "return_120d": -0.08533132199296978
+      "return_120d": -0.08533140090983116
     },
     "volatility": {
       "ok": false,
-      "annualized_40d": 0.25449487959000133
+      "annualized_40d": 0.2544948795900017
     },
     "drawdown_252d": -0.1482373553070402,
     "crash_override": false,
@@ -44,10 +44,10 @@
   "market_prices": {
     "QQQ": 647.0499877929688,
     "QLD": 72.2699966430664,
-    "TQQQ": 50.46500015258789
+    "TQQQ": 50.470001220703125
   },
   "account": {
-    "portfolio_value": 12523.250007629395,
+    "portfolio_value": 12523.500061035156,
     "cash": 10000.0,
     "positions": {
       "QQQ": {
@@ -65,15 +65,15 @@
       "TQQQ": {
         "shares": 50.0,
         "avg_price": 50.0,
-        "market_price": 50.46500015258789,
-        "market_value": 2523.2500076293945
+        "market_price": 50.470001220703125,
+        "market_value": 2523.5000610351562
       }
     },
     "current_weights": {
       "QQQ": 0.0,
       "QLD": 0.0,
-      "TQQQ": 0.20148523794479742,
-      "CASH": 0.7985147620552026
+      "TQQQ": 0.20150118167736655,
+      "CASH": 0.7984988183226335
     }
   },
   "target": {
@@ -83,10 +83,10 @@
       "TQQQ": 0.0
     },
     "weights": {
-      "QQQ": 0.981690037376616,
+      "QQQ": 0.9816704362318839,
       "QLD": 0.0,
       "TQQQ": 0.0,
-      "CASH": 0.018309962623384055
+      "CASH": 0.01832956376811612
     }
   },
   "orders": [
@@ -94,8 +94,8 @@
       "side": "SELL",
       "ticker": "TQQQ",
       "shares": 50.0,
-      "estimated_price": 50.46500015258789,
-      "estimated_value": 2523.2500076293945,
+      "estimated_price": 50.470001220703125,
+      "estimated_value": 2523.5000610351562,
       "note": "전량 매도"
     },
     {
