@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T00:18:42+00:00",
+  "generated_at": "2026-11-17T05:08:15+00:00",
   "strategy": {
     "id": "ROBUST_SMA165_CRASH23",
     "name": "ROBUST TQQQ / QLD / QQQ / CASH",
@@ -34,7 +34,7 @@
     },
     "volatility": {
       "ok": false,
-      "annualized_40d": 0.27168984916719907
+      "annualized_40d": 0.2716898491671994
     },
     "drawdown_252d": -0.12888657637079837,
     "crash_override": false,
